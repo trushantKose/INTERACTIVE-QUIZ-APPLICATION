@@ -28,3 +28,4 @@ This quiz app project is ideal for learning or demonstrating key frontend skills
 
 Overall, this Interactive Quiz Application serves as a great portfolio piece and a solid base for more advanced web applications. It reflects the core principles of frontend development and is easy to understand, use, and modify. The complete project is uploaded to GitHub and can be cloned or downloaded by anyone who wants to explore or improve it. Whether you are a student, educator, or developer, this quiz app provides a practical example of how web technologies can be used to build interactive and user-friendly applications.
 
+*OUTPUT*: <img width="1884" height="866" alt="Image" src="https://github.com/user-attachments/assets/be9520ab-f34b-4182-9bde-2aae63784935" />

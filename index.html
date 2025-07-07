@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Intro section to welcome the user -->
+  <div id="intro" style="color: #fff">
+    Hey welcome to my Quiz App
+  </div>
+
+  <!-- Main app container for quiz content -->
+  <div class="app">
+
+    <!-- App heading/title -->
+    <h1>Simple Quiz</h1>
+
+    <!-- Quiz content container -->
+    <div class="quiz">
+
+      <!-- Placeholder for dynamic question -->
+      <h2 id="question">
+        Question goes here
+      </h2>
+
+      <!-- Container for answer buttons (dynamically updated) -->
+      <div id="answer-buttons">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+
+      <!-- Next button to proceed to next question -->
+      <button id="next-btn">Next</button>
+
+    </div> <!-- End of .quiz -->
+  </div> <!-- End of .app -->
+
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+/* ===== Reset and Base Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Modern clean font */
+    box-sizing: border-box; /* Includes padding & border in total element width/height */
+}
+
+/* ===== Body Background ===== */
+body {
+    background: #001e; /* Dark blue background for full body */
+    background-image: url('https://scifinsys.com/wp-content/uploads/2023/06/Untitled-design-9-2-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ===== Intro Text Section ===== */
+#intro {
+    margin: 100px;
+    font-size: 32px;
+    font-weight: 600;
+    border-bottom: 2px solid white; /* Decorative underline */
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+/* ===== Quiz App Container ===== */
+.app {
+    background: white;
+    width: 90%;
+    max-width: 600px; /* Limit size for large screens */
+    margin: 50px auto 0; /* Center horizontally with top margin */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px;
+}
+
+/* ===== App Title Style ===== */
+.app h1 {
+    font-size: 25px;
+    color: #001e; /* Same dark blue as body background */
+    font-weight: 600;
+    border-bottom: 1px solid #333; /* Subtle underline */
+    padding-bottom: 30px;
+}
+
+/* ===== Quiz Section Padding ===== */
+.quiz {
+    padding: 20px 0;
+}
+
+/* ===== Question Text Style ===== */
+.quiz h2 {
+    font-size: 18px;
+    color: #001e;
+    font-weight: 600;
+}
+
+/* ===== Answer Buttons Styling ===== */
+.btn {
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: left;
+    border-radius: 4px;
+    transition: 0.3s; /* Smooth hover effect */
+    cursor: pointer;
+}
+
+/* ===== Hover Effect for Active Answer Buttons ===== */
+.btn:hover:not([disabled]) {
+    background: #170303; /* Dark red background */
+    color: #fff; /* White text on hover */
+}
+
+/* ===== Disabled Button Style (after selection) ===== */
+.btn:disabled {
+    cursor: no-drop; /* Indicate not clickable */
+}
+
+/* ===== Next Button Style ===== */
+#next-btn {
+    background: #001e4d; /* Dark blue */
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 25px auto 0; /* Center button */
+    border-radius: 4px;
+    cursor: pointer;
+    display: none; /* Hidden by default, shown after selection */
+}
+
+/* ===== Correct Answer Highlight ===== */
+.correct {
+    background: #9aeabc; /* Light green to indicate correct */
+}
+
+/* ===== Incorrect Answer Highlight ===== */
+.incorrect {
+    background: #ff9393; /* Light red to indicate incorrect */
+}
